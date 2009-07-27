@@ -1,0 +1,4 @@
+<div class="right">
+[% PROCESS send_new_keyword.tt %]	
+[% PROCESS new_keywords.tt %]	
+</div>

@@ -1,0 +1,132 @@
+body {
+    margin-left: 88px;
+    margin-right: 7%;
+    background-color: #fff;
+    background-repeat: repeat-y;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 120%;
+    color          : #000000;
+    text-align     : left;
+    background     : #fefeee;
+    padding    : 0.3em 0.3em 0.3em 0.5em;
+    border-width   : 1px 1px 1px 1px;
+    border-style   : solid;
+    border-color   : #aa2;
+}
+
+h4 {
+    font-size: 110%;
+    margin: 1em 0 1em 0;
+    padding-left   : 0.2em;
+    color          : #000;
+    text-align     : left;
+    background     : transparent;
+    border-width   : 0em 0em 1pt 0pt;
+    border-style   : dashed;
+    border-color   : #aaa;
+}
+
+h5 {
+    font-size: 100%;
+    color          : #000;
+    text-align     : left;
+    background     : transparent;
+    border-width   : 0em 0em 1pt 0pt;
+    border-style   : dotted;
+    border-color   : #274;
+    margin-left   : 0.4em;
+}
+
+img { 
+    border: 0pt;
+}
+
+.title {
+    color: #fff;
+    background-color: #225;
+    border-color   : #9ad;
+    margin: 1em 0 1em 0;
+    font-size: 170%;
+    padding: 0.4em 0.6em;
+    border-width   : 0px 4px 4px 0px;
+    border-style   : solid;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    background-color: #CCCCFF;
+}
+
+p, ul, ol, li, pre {
+    margin-left: 1em;
+    line-height: 120%;
+}
+
+pre.hatena-super-pre {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #efd;
+    font-size: 100%;
+}
+
+table {
+    width: 90%;
+    margin-left: 1em;
+    border-spacing: 0.2em 0.5em;
+}
+
+th { 
+    border-color   : #aaa;
+    border-width   : 0px 2px 2px 0px;
+    border-style   : solid;
+}
+
+td { 
+    border-color   : #aaa;
+    border-width   : 0px 2px 2px 0px;
+    border-style   : solid;
+}
+
+tr { 
+    margin: 1em 0 1em 0;
+}
+
+blockquote {
+    margin: 0 1em 0 2em;
+    padding: 1em 1em 1em 1em;
+    background-color: #efd;
+    font-size: 90%;
+}
+
+.footer {
+    border-top: gray thin solid;
+    margin: 3em 0 0 0;
+    padding: 1em 0 0 0;
+}
+
+div.left {
+    display:block;
+    float:left;
+    margin-right:-160px;
+    width:77%;
+}
+
+div.right {
+    display:block;
+    float:right;
+    margin-left:-150px;
+    overflow:hidden;
+    width:20%;
+}
+
+div.main {
+    clear:both;
+    display:block;
+}
+

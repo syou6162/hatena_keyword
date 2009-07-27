@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:<-mail>" />
+<link rel="index" href="index.html" />
+<link href="./main.css" type="text/css" rel="stylesheet" />
+<title>[% keyword %]</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="left">
+      <a name="top"></a>
+      <h1 class="title">[% keyword %]</h1>
+      <a href="./create_new_keyword.cgi?keyword=[% keyword %]">編集</a><br />
+      [% content %]
+    </div>
+    [% PROCESS sidebar.tt %]	
+  </div>
+</body>
+</html>

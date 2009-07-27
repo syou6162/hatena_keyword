@@ -1,0 +1,5 @@
+<h3>キーワード作成</h3>
+<form method="get" action="./create_new_keyword.cgi">
+  <input type="text" name="keyword" value="キーワード" size="20" /><br />
+  <input type="submit" value="作成" />
+</form>

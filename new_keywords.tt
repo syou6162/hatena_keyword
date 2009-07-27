@@ -1,0 +1,4 @@
+<h3>新規キーワード</h3>
+[%- FOREACH keyword IN keywords %]
+<a href="./keyword.cgi?keyword=[% keyword.keyword %]">[% keyword.keyword %]</a><br />
+[%- END %]
